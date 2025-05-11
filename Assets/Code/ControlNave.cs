@@ -33,7 +33,7 @@ public class ControlNave : MonoBehaviour
             rotarDerecha.z -= Time.deltaTime * 1;
             transform.rotation = rotarDerecha;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A))
         {
             var rotarIzquierda = transform.rotation;
             rotarIzquierda.z += Time.deltaTime * 1;
